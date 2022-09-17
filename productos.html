@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- TITULO -->
+  <title>Tienda Online</title>
+  <!-- ICONS FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <!-- STYLE CSS -->
+  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!--========================== MENU NAV ========================================-->
+  <nav id="nav">
+    <h2 class="logo">V' LA <span>CAJITA.</span> </h2>
+    <div class="menu-list">
+      <a href="index.html">inicio</a>
+      <a href="productos.html">productos</a>
+      <a href="nosotros.html">sobre nosotros</a>
+      <!--  <a href="nosotros.html">favoritos <i class="fa-solid fa-heart"></i></a> -->
+    </div>
+    <div class="menu-right">
+      <div class="search">
+        <button class="btn btn-menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <div class="cart">
+        <button class="btn btn-cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+
+          <!-- ================= CONTENEDOR CARRITO ======================= -->
+          <div class="cart-products" id="products-id">
+            <h3>Mi carrito</h3>
+            <div class="card-items">
+              <!--  <div class="item">
+                <img src="database/img/bellesa2.jpg" alt="">
+                <div class="item-content">
+                  <h5>name of product name of product name of product</h5>
+                  <h5 class="cart-price">45.50$</h5>
+                  <h6>cantidad: 3</h6>
+                </div>
+                <span>X</span>
+              </div> -->
+
+            </div>
+            <h2>Total: <strong class="price-total">0</strong> $</h2>
+          </div>
+
+          <!-- FIN CONTENEDOR CARRITO -->
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- FIN MENU NAV -->
+
+  <!-- ===================================== GARANTIA ==============================-->
+  <section class="garantia">
+    <div class="garantia-wrapper">
+      <div class="garantia-cart">
+        <i class="fa-solid fa-laptop-code garantia-icono"></i>
+        <div class="garantia-text">
+          <h2>Compra sin moverte</h2>
+          <p>Encuentra lo que necesitas, y coordina el pago y la entrega junto con nosotros. Es fácil y rápido. ¡Todos
+            podemos hacerlo!</p>
+        </div>
+      </div>
+      <div class="garantia-cart">
+        <i class="fa-solid fa-box-archive garantia-icono"></i>
+        <div class="garantia-text">
+          <h2>Recibe tu producto</h2>
+          <p>Acuerda la entrega de tu compra con nosotros. Puedes recibirla en tu casa, en la oficina o retirarlo. ¡Tú
+            decides qué prefieres!</p>
+        </div>
+      </div>
+      <div class="garantia-cart">
+        <i class="fa-solid fa-sack-dollar garantia-icono"></i>
+        <div class="garantia-text">
+          <h2>tipos de pago</h2>
+          <p>Acuerda con nosotros el tipo de pago. ¡Tú decides el que prefieres!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIN DE GARANTIA  -->
+
+
+  <!-- ===============================PRODUCTOS =============================== -->
+  <div class="container__principal">
+    <h2 class="seccion__productos">buscar por categoria</h2>
+    <div class="filtr__productos">
+
+      <div class="filtrar__categorigas">
+
+        <button class="categoria__btn-filtrar categoria1 bg-gray active" value="todos">todos</button>
+        <button class="categoria__btn-filtrar categoria1 bg-gray" value="zapatos">zapatos</button>
+        <button class="categoria__btn-filtrar categoria2 bg-gray" value="ropa">ropa</button>
+        <button class="categoria__btn-filtrar categoria3 bg-gray" value="belleza">belleza</button>
+        <button class="categoria__btn-filtrar categoria4 bg-gray" value="electronicos">electronicos</button>
+        <button class="categoria__btn-filtrar categoria5 bg-gray" value="medicinas">medicinas</button>
+
+      </div>
+      <div class="filtrar__categorigas-buscaddor">
+        <input type="text" id="buscador__input" placeholder="que estas buscando">
+        <i id="buscador" class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+    <!-- SECCION DE PRODUCTOS -->
+
+    <section class="all__products">
+
+      <div class="container-product">
+
+      </div>
+    </section>
+    <!-- fin seccion productos -->
+
+
+    <!-- ============================= FOOTER ============================== -->
+    <footer class="footer bg-dark-gray">
+
+      <div class="footer__container">
+        <div class="footer__tirulo-paagina">
+          <h2>variedades <span>la cajita</span> </h2>
+        </div>
+        <div class="footer__flex">
+          <section class="seccion-f footer__seccion-1">
+            <h2>QUE OFRECEMOS</h2>
+            <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat soluta at hic accusantium a, quisquam
+              illo fuga? Nemo, beatae perferendis.</P>
+          </section>
+          <section class="seccion-f footer__seccion-2">
+
+            <div class="social__media">
+              <div class="social__media-icon">
+                <h2>SÍGANOS EN </h2>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+
+              </div>
+            </div>
+          </section>
+          <section class="seccion-f footer__seccion-3">
+            <div class="sobre__nosotros">
+              <h2>SOBRE NOSOTROS</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur itaque ad, velit earum
+                consequatur adipisci illo voluptatibus officiis dicta.</p>
+            </div>
+          </section>
+
+        </div>
+
+      </div>
+
+    </footer>
+    <!-- FIN DEL FOOTER -->
+
+
+    <!-- SCRIPT JS -->
+    <script src="js/productos.js" type="module"></script>
+</body>
+
+</html>
