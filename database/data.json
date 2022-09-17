@@ -5,7 +5,7 @@
       "name": "Spring Valley",
       "price": 25,
       "description": "Spring Valley - Milk Thistle 175 mg, 90 Capsules by Spring Valley -Cápsula para adultos",
-      "picture": "database/img/pruducto2.jpg",
+      "picture": "../database/img/pruducto2.jpg",
       "estrellas": 5,
       "categoryId": "medicinas"
     },
@@ -14,7 +14,7 @@
       "name": "Spring Valley Turmeric ",
       "price": 25,
       "description": "Spring Valley Turmeric Curcumin 500mg with 50mg Ginger Powder Twin Pack 180 Vegetarian Capsules - Cápsula para adultos",
-      "picture": "database/img/pruducto2.jpg",
+      "picture": "../database/img/pruducto2.jpg",
       "estrellas": 5,
       "categoryId": "medicinas"
     },
@@ -23,7 +23,7 @@
       "name": "Spring Valley ",
       "price": 25,
       "description": "Spring Valley Vitamin B12 Timed Release Tablets, 1000 mcg, 150 Count - adultos",
-      "picture": "database/img/producto3.jpg",
+      "picture": "../database/img/producto3.jpg",
       "estrellas": 3,
       "categoryId": "medicinas"
     },
@@ -32,7 +32,7 @@
       "name": "Nature's Bounty ",
       "price": 25,
       "description": " Vitamin Biotin Optimal Solutions Hair, Skin and Nails Gummies, 200 Count - adultos",
-      "picture": "database/img/producto4.jpg",
+      "picture": "../database/img/producto4.jpg",
       "estrellas": 4,
       "categoryId": "medicinas"
     },
@@ -41,7 +41,7 @@
       "name": "multivitamínico Centrum ",
       "price": 30,
       "description": "multimineral para adultos Centrum con antioxidantes, zinc, vitamina D3 y vitaminas B",
-      "picture": "database/img/producto5.jpg",
+      "picture": "../database/img/producto5.jpg",
       "estrellas": 5,
       "categoryId": "medicinas"
     },
@@ -50,7 +50,7 @@
       "name": " vitamina C con rosa mosqueta",
       "price": 30,
       "description": "Sundown Kids Gomitas de  vitamina C con rosa mosqueta - bioflavonoides cítricos, sin OMG, sin lácteos, sin gluten, vegetariano, 90 unidades",
-      "picture": "database/img/producto6.jpg",
+      "picture": "../database/img/producto6.jpg",
       "estrellas": 5,
       "categoryId": "medicinas"
     },
@@ -59,7 +59,7 @@
       "name": "Centrum para mujeres",
       "price": 30,
       "description": "multimineral con hierro, vitamina D3, vitaminas B y vitaminas antioxidantes C y E, sin gluten, ingredientes sin OMG, 250 unidades",
-      "picture": "database/img/producto7.jpg",
+      "picture": "../database/img/producto7.jpg",
       "estrellas": 5,
       "categoryId": "medicinas"
     },
@@ -68,7 +68,7 @@
       "name": "Centrum para hombres",
       "price": 30,
       "description": "multimineral con vitamina D3, vitaminas B y antioxidantes, sin gluten, ingredientes sin OMG, 200 unidades",
-      "picture": "database/img/producto8.jpg",
+      "picture": "../database/img/producto8.jpg",
       "estrellas": 4,
       "categoryId": "medicinas"
     },
@@ -77,7 +77,7 @@
       "name": "acetaminofén",
       "price": 20,
       "description": "Alivio del dolor extra fuerte, cápsulas de acetaminofén, 500 mg, 200 unidades",
-      "picture": "database/img/producto9.jpg",
+      "picture": "../database/img/producto9.jpg",
       "estrellas": 5,
       "categoryId": "medicinas"
     },
@@ -86,7 +86,7 @@
       "name": "ibuprofeno",
       "price": 20,
       "description": "abletas de ibuprofeno, reductor de fiebre y alivio del dolor de dolores corporales, dolor de cabeza, dolor de artritis y más, 500 unidades",
-      "picture": "database/img/producto10.jpg",
+      "picture": "../database/img/producto10.jpg",
       "estrellas": 3,
       "categoryId": "medicinas"
     },
@@ -95,7 +95,7 @@
       "name": "Alka-Seltzer Original",
       "price": 10,
       "description": "alivio rápido sintomático de las molestias gástricas",
-      "picture": "database/img/producto11.jpg",
+      "picture": "../database/img/producto11.jpg",
       "estrellas": 3,
       "categoryId": "medicinas"
     },
@@ -104,7 +104,7 @@
       "name": "Limpiador de maquillaje  EcoTools",
       "price": 30,
       "description": " EcoTools para brochas de maquillaje, brochas y maquillaje, champú limpiador de esponja de belleza, sin fragancia, hipoalergénico, sin parabenos, botella de 6 fl.oz./177 ml",
-      "picture": "database/img/bellesa1.jpg",
+      "picture": "../database/img/bellesa1.jpg",
       "estrellas": 3,
       "categoryId": "belleza"
     },
@@ -113,7 +113,7 @@
       "name": "Pond's Rejuveness Wrinklel",
       "price": 20,
       "description": " El paquete Pond's Rejuveness Wrinkle Cream para el cuidado de la piel incluye crema para ojos, suero facial y crema de noche antienvejecimiento Vitamina B3 y complejo de retinol 3 unidades",
-      "picture": "database/img/bellesa2.jpg",
+      "picture": "../database/img/bellesa2.jpg",
       "estrellas": 3,
       "categoryId": "belleza"
     },
@@ -122,7 +122,7 @@
       "name": "Pond's Dark Spot Corrector",
       "price": 17,
       "description": " Pond's Dark Spot Corrector Clarant B3 piel normal a seca",
-      "picture": "database/img/bellesa3.jpg",
+      "picture": "../database/img/bellesa3.jpg",
       "estrellas": 3,
       "categoryId": "belleza"
     },
@@ -131,7 +131,7 @@
       "name": "Pond's antiarrugas",
       "price": 15,
       "description": " Hidratante facial antienvejecimiento con ácido alfa hidroxi y colágeno",
-      "picture": "database/img/bellesa4.jpg",
+      "picture": "../database/img/bellesa4.jpg",
       "estrellas": 3,
       "categoryId": "belleza"
     },
@@ -140,7 +140,7 @@
       "name": "Pond's  Hidratante",
       "price": 15,
       "description": " Hidratante facial antienvejecimiento con ácido alfa hidroxi y colágeno",
-      "picture": "database/img/bellesa5.jpg",
+      "picture": "../database/img/bellesa5.jpg",
       "estrellas": 3,
       "categoryId": "belleza"
     },
@@ -149,7 +149,7 @@
       "name": "Kit magnéticas Arishine",
       "price": 20.2,
       "description": "delineador de ojos magnético para juego de pestañas magnéticas, con pestañas reutilizables",
-      "picture": "database/img/bellesa6.jpg",
+      "picture": "../database/img/bellesa6.jpg",
       "estrellas": 3,
       "categoryId": "belleza"
     },
@@ -158,7 +158,7 @@
       "name": "SHANY All In One Harmony Makeup Kit",
       "price": 20.2,
       "description": "SHANY All In One Harmony Makeup Kit - Combinación de colores definitiva - Nueva edición",
-      "picture": "database/img/bellesa7.jpg",
+      "picture": "../database/img/bellesa7.jpg",
       "estrellas": 3,
       "categoryId": "belleza"
     },
@@ -167,7 +167,7 @@
       "name": "SHANY All In One Harmony Makeup Kit",
       "price": 20.2,
       "description": "SHANY All In One Harmony Makeup Kit - Combinación de colores definitiva - Nueva edición",
-      "picture": "database/img/bellesa7.jpg",
+      "picture": "../database/img/bellesa7.jpg",
       "estrellas": 3,
       "categoryId": "belleza"
     },
@@ -176,7 +176,7 @@
       "name": "SHANY All In One Harmony Makeup Kit",
       "price": 20.2,
       "description": "SHANY All In One Harmony Makeup Kit - Combinación de colores definitiva - Nueva edición",
-      "picture": "database/img/bellesa7.jpg",
+      "picture": "../database/img/bellesa7.jpg",
       "estrellas": 3,
       "categoryId": "belleza"
     },
@@ -185,7 +185,7 @@
       "name": "SHANY All In One Harmony Makeup Kit",
       "price": 20.2,
       "description": "SHANY All In One Harmony Makeup Kit - Combinación de colores definitiva - Nueva edición",
-      "picture": "database/img/bellesa7.jpg",
+      "picture": "../database/img/bellesa7.jpg",
       "estrellas": 3,
       "categoryId": "belleza"
     }

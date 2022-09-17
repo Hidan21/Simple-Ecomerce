@@ -3,7 +3,7 @@ export const resultado = document.querySelector('.container-product');
 let categoryBtn = '';
 
 export function llamarAPi() {
-  const url = 'database/data.json';
+  const url = '../database/data.json';
   fetch(url)
     .then((datos) => datos.json())
     .then((respuesta) => mostrarProducts(respuesta.products));
